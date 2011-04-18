@@ -30,7 +30,7 @@ OF SUCH DAMAGE.
 
  */
 
-require_once ('./http.php');
+require_once (dirname(__FILE__) . '/http.php');
 
 /**
  * A utility function for a common case of XML parsing. It returns the value for

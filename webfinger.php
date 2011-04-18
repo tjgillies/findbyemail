@@ -35,9 +35,9 @@ OF SUCH DAMAGE.
 
  */
 
-require_once ('./http.php');
-require_once ('./utility.php');
-require_once ('./hkit/hkit.class.php');
+require_once (dirname(__FILE__) . '/http.php');
+require_once (dirname(__FILE__) . '/utility.php');
+require_once (dirname(__FILE__) . '/hkit/hkit.class.php');
 
 // These two strings are placed around the domain name extracted from the email 
 //address, and then used to fetch the description of supported services
